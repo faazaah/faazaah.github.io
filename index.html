@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+	<title>Fatima Zahra's Portfolio</title>
+</head>
+<body>
+	<!-- large watermark img with text inside -->
+	<div id="intro-block" class="jumbotron text-center">
+			<!-- Image by Free-Photos on Pixabay -->
+			<!-- <img src="C:\Users\FaZa\Documents\Portfolio\images/NY.jpg" alt="New York city skyline image"> -->
+			<h1>FATIMA ZAHRA</h1>
+			<p><strong>FRONT END WEB DEVELOPER</strong></p>
+			<!-- <i class="fas fa-map-marker-alt" style='font-size:18px'> Florida, USA</i> -->
+
+			<!-- Social media connect -->
+
+			<div id="connect" class="row">
+				<a href="https://www.linkedin.com/in/itsfatimazahra/" style='font-size:50px; color: #FFF '><i class='fab fa-linkedin'></i></a>
+			</div>
+	</div>
+	<!-- Beginning of container class -->
+	<div class="container">
+
+			<!-- Projects selection -->
+			<div id="projects" class="row">
+
+			<section id="heading" class="row">
+				<h2 class="col-md-6">Projects</h2>
+				<!-- Project dropdown selection -->
+				<!-- <div class="dropdown col-md-4">
+					<select class="form-control input-lg">Select a Project
+						<option><a class="dropdown-item" href="#">Build a Portfolio</a></option>
+						<option><a class="dropdown-item" href="#">The Memory Game</a></option>
+						<option><a class="dropdown-item" href="#">Classic Arcade Game Clone</a></option>
+						<option><a class="dropdown-item" href="#">Feed Reader Testing</a></option>
+						<option><a class="dropdown-item" href="#">Restaurant Reviews</a></option>
+					</select>
+				</div> -->
+			</section>
+			<br>
+			<!-- List of Projects -->
+			<!-- 2 sections in each project, one for img and other for desc -->
+			<div id="Project1" class="row">
+				<div class="col-xs-6 col-md-6">
+					<img src="images/html.jpg" alt="free image from Pixabay.com that displays text HTML" class="img-responsive img-circle">
+				</div>
+				<div class="col-xs-6 col-md-6">
+					<br>
+					<h4><strong><a href="https://faazaah.github.io/Portfolio/">Build a Portfolio</a></strong></h4>
+					<p><i class="fab fa-html5" style="font-size: 16px"></i> <i class="fab fa-css3-alt" style="font-size: 16px"></i></p>
+					<p>Developed a fully resposive static web page from a design mock-up using HTML and CSS. The web page can be viewed across all viewports including desktops, laptops, tablets and mobile phones.</p>
+					<a href="https://github.com/faazaah/Portfolio">Learn More</a>
+				</div>
+			</div>
+			<div id="Project2" class="row">
+				<div class="col-xs-6 col-md-6">
+					<img src="images/matrix.jpg" alt="free image from Pixabay.com of a matrix" class="img-responsive img-circle">
+				</div>
+				<div class="col-xs-6 col-md-6">
+					<br>
+					<h4><strong><a href="https://faazaah.github.io/Memory-Game/">The Memory Game</a></strong></h4>
+					<p><i class="fab fa-html5" style="font-size: 16px"></i> <i class="fab fa-css3-alt" style="font-size: 16px"></i>  <i class="fab fa-js-square" style="font-size: 16px"></i></p>
+					<p>Built a fully responsive browser based interactive card-matching game using HTML, CSS and JavaScript.</p>
+
+					<!-- Modal for desc of memory game -->
+					<p><a type="button" class="btn btn-outline-info" data-toggle="modal" href="#aModal">What is a Memory Game?</a></p>
+					<div class="modal modal-content modal-dialog" id="aModal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="modal dialog">
+						<div class="modal-header"><h6>What is a Memory Game?</h6></div>
+						<div class="modal-body">
+							<p>Also known as card-matching game</p>
+							<p>The game starts with all cards flipped face down. The player has to click on a card to reveal it. Two cards can be clicked at a time.The player has to remember the card, and open up another matching card.  If the cards match , they remain open, and if not, then the cards flip face down again.  The player wins the game when all cards are matched. </p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" data-dismiss="modal" aria-label="close">Close</button>
+						</div>
+					</div>
+
+					<a href="https://github.com/faazaah/Memory-Game">Learn More</a>
+				</div>
+			</div>
+			<div id="Project3" class="row">
+				<div class="col-xs-6 col-md-6">
+					<img src="images/monitor.jpg" alt="free image from Pixabay.com showing 3 monitors with a skyline background" class="img-responsive img-circle">
+				</div>
+				<div class="col-xs-6 col-md-6">
+					<br>
+					<h4><strong><a href="https://faazaah.github.io/Classic-Arcade-Game/">Classic Arcade Game Clone</a></strong></h4>
+					<p><i class="fab fa-html5" style="font-size: 16px"></i> <i class="fab fa-css3-alt" style="font-size: 16px"></i>  <i class="fab fa-js-square" style="font-size: 16px"></i></p>
+					<p>Recreated the classic arcade game Frogger, with the provided art assets and game loop engine. Added additional features to the game utilizing concepts of Object-Oriented JavaScript.</p>
+					<a href="https://github.com/faazaah/Classic-Arcade-Game">Learn More</a>
+				</div>
+			</div>
+			<div id="Project4" class="row">
+				<div class="col-xs-6 col-md-6">
+					<img src="images/digital.jpg" alt="free image from Pixabay.com showing digital 0's and 1's" class="img-responsive img-circle">
+				</div>
+				<div class="col-xs-6 col-md-6">
+					<br>
+					<h4><strong><a href="https://github.com/faazaah/Feed-Reader-Testing">Feed Reader Testing</a></strong></h4>
+					<p>Wrote comprehensive unit tests using Jasmine Testing Framework for a provided RSS feed reader application that uses Google's RSS API.</p>
+					<a href="https://github.com/faazaah/Feed-Reader-Testing">Learn More</a>
+					<br>
+					<br>
+					<a href="https://drive.google.com/file/d/1j3SVDQn_WHAsxqM6wNRmWoqKiFZQ6QKO/view?usp=sharing">Watch Demo</a>
+
+				</div>
+			</div>
+			<div id="Project5" class="row">
+				<div class="col-xs-6 col-md-6">
+					<img src="images/computer.jpg" alt="free image from Pixabay.com showing different sized devices including tablets and mobile phone" class="img-responsive img-circle">
+				</div>
+				<div class="col-xs-6 col-md-6">
+					<br>
+					<h4><strong><a href="https://github.com/faazaah/Restaurant-Reviews">Restaurant Reviews</a></strong></h4>
+					<p><i class="fab fa-html5" style="font-size: 16px"></i> <i class="fab fa-css3-alt" style="font-size: 16px"></i>  <i class="fab fa-js-square" style="font-size: 16px"></i></p>
+					<p>Converted a static web page into a mobile-ready, fully responsive and progressive web application. Implemented accessibility features for screen reader use according to WCAG.The website content is made available offline through Cache API and Service Worker.</p>
+					<a href="https://github.com/faazaah/Restaurant-Reviews">Learn More</a>
+					<br>
+					<br>
+
+					<p>This project is fully responsive across all viewports. Take a look at the demo to learn more.</p>
+					<a href="https://drive.google.com/file/d/1yA3y-AON-1sRkpGYdTxDBLnMm84IK984/view?usp=sharing">Watch Demo</a>
+					<br>
+					<br>
+					<p>This project is a progressive web application and is made available offline.</p>
+					<a href="https://drive.google.com/file/d/1Skx_5ml-uXGJ-SYmqBbkGTvZNwMIFtEu/view?usp=sharing">Watch Demo </a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- How this project was made -->
+		<div class="row">
+			<!-- Modal button -->
+			<br>
+			<br>
+			<button type="button" id="btn-fact" class="btn btn-outline-info pull-right" data-toggle="modal" data-target="#myModal">Quick Fact</button>
+				<!-- Modal content -->
+				<div class="modal modal-content modal-dialog" id="myModal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="modal dialog">
+					<div class="modal-header"><h6>Quick Fact!</h6></div>
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<p>This is a fully responsive webpage, and can be viewed across different viewports including desktops, laptops, tablets and mobile devices.</p>
+						<p>I created this porfolio using HTML and CSS, and utilized grid system with Bootstrap.</p>
+						<p>Images used in this webpage are free images from <a href="https://pixabay.com/">Pixabay</a></p>
+						<p>I have added accessibility features as well for screen reader use</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" data-dismiss="modal" aria-label="close">Close</button>
+					</div>
+				</div>
+		</div>
+		<br>
+
+	</div>
+</body>
+</html>

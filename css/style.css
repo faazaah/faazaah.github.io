@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+#heading {
+	color: #7F3300FF;
+}
+
+#intro-block {
+	background-image: url("../images/NY.jpg" );
+	color: #FFF;
+	opacity: 1.2;
+	font-family: 'Bree Serif', serif;
+	font-size: 12px;
+}
+
+.container {
+	margin-left: 20px;
+	font-family: 'Bree Serif', serif;
+	color: #7F3300FF;
+}
+
+#btn-fact {
+	border: solid #7F3300FF;
+}
+
+
